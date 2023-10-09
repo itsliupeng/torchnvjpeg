@@ -22,7 +22,7 @@ setup(
         CUDAExtension(name='torchnvjpeg',
                       sources=['torchnvjpeg.cpp'],
                       # extra_compile_args=['-g', '-std=c++14', '-fopenmp'],
-                      extra_compile_args=['-std=c++14'],
+                      extra_compile_args=['-std=c++17'],
                       libraries=['nvjpeg'],
                       define_macros=[('PYBIND', None)]),
     ],

@@ -2,6 +2,8 @@
 // Created by liupeng on 2021/3/23.
 //
 
+#include <fstream>
+
 #include <c10/cuda/CUDAStream.h>
 #include <cuda.h>
 #include <cuda_runtime.h>
